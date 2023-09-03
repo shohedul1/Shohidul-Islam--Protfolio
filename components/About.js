@@ -7,6 +7,7 @@ import { BsGlobe2 } from 'react-icons/bs';
 import { TbPacman } from 'react-icons/tb';
 import { IoLocationOutline } from 'react-icons/io5';
 import Button from './Button';
+import Image from 'next/image';
 
 
 function About() {
@@ -15,7 +16,7 @@ function About() {
             <Heading title="About Me" />
             <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
                 <div>
-                    <img className='w-[400px]' src='/hero1.jpg' alt='' />
+                    <Image  src='/hero1.jpg' alt='' width={400} height={50}/>
                 </div>
                 <div>
                     <div className='flex items-center justify-between w-[300px]'>
