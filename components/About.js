@@ -63,7 +63,7 @@ function About() {
                     </div>
                     <div className='max-w-[800px]'>
                         <h2 className='font-bold mt-16 mb-10'>I am shohidul Frontend and Backend Developer</h2>
-                         <p>Hi! My name is shohidul.I am a Web Developer, I`'`m very passionate and dedi my work. With 20 years experience as professinal</p>
+                         <p>Hi! My name is shohidul.I am a Web Developer, I am very passionate and dedi my work. With 20 years experience as professinal</p>
                          <Button link="#" text="Hire Me"/>
                     </div>
                 </div>
