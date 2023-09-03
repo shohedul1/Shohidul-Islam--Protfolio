@@ -8,7 +8,7 @@ function Hero() {
             <div className='container mx-auto px-4'>
                 <div className='max-w-[450] text-white flex flex-col gap-[40px]'>
                     <div>
-                        <h1 className='text-5xl text-blue-500'>I'm Shohidul Islam</h1>
+                        <h1 className='text-5xl text-blue-500'>I am Shohidul Islam</h1>
                         <h4 className='text-2xl mt-3'>
                             <Typewriter
                                 options={{
