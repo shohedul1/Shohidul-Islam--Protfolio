@@ -1,14 +1,10 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import WhatDo from "../components/WhatDo";
-import Skills from "../components/Skills";
-import Work from "../components/Work";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
+import Navbar from "../../components/Navbar";
+import About from "../../components/About";
+
+import Footer from "../../components/Footer";
 import { useState } from "react";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../../components/Sidebar";
 
 
 export default function Home() {
@@ -31,12 +27,9 @@ export default function Home() {
 
       <main>
         <Sidebar inOpen={isOpent} toggleSidebar={toggleSidebar}/>
-       <Hero/>
+      
        <About/>
-       <WhatDo/>
-       <Skills/>
-       <Work/>
-       <Contact/>
+    
       </main>
       <footer>
         <Footer/>
